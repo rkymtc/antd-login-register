@@ -58,7 +58,7 @@ class Index extends React.Component {
     const { bounds, disabled, visible } = this.state;
     return (
       <>
-        <Button onClick={this.showModal}>Open Draggable Modal</Button>
+        <Button onClick={this.showModal}>Login/Register</Button>
         <Modal footer={null}
           title={
             <div
@@ -85,7 +85,7 @@ class Index extends React.Component {
               // end
             >
               <Tabs defaultActiveKey="2">
-                <TabPane tab={<span>Reg</span>} key="1">
+                <TabPane tab={<span>Register</span>} key="1">
                   <Login />
                 </TabPane>
                 <TabPane tab={<span>Login</span>} key="2">
