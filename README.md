@@ -1,4 +1,4 @@
-# Sabit Kur Çevirici
+# Giriş Yap veya Üye Ol
 
 [Demo]
 
